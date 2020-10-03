@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sinau Css Day 5</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <input type="text" class="search" placeholder="Cari film, tv shows, dan series ...">
+            <span class="sidemenu" onclick="openNav()">&#9776;</span>
+            <img src="img/search.png" alt="" id="mySearch">
+            <ul class="link-right">
+                <li class="link"><a href="#">Box Office</a></li>
+                <li class="link"><a href="#">Drama Korean</a></li>
+                <li class="link"><a href="#">Netflix</a></li>
+                <li class="link"><a href="#">Anime</a></li>
+                <li class="link"><a href="#">Hot News</a></li>
+            </ul>
+        </div>
+        <div id="Sidemenu" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <li class="link"><a href="#">Box Office</a></li>
+            <li class="link"><a href="#">Drama Korean</a></li>
+            <li class="link"><a href="#">Netflix</a></li>
+            <li class="link"><a href="#">Anime</a></li>
+            <li class="link"><a href="#">Hot News</a></li>
+        </div>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close"></span>
+            <input type="text" class="search" placeholder="Cari film, tv shows, dan series ...">
+        </div>
+
+    </div>
+
+    <!-- featured content -->
+    <div class="new-content">
+        <div class="container">
+            <div class="featured">
+                <div class="card-content-big" id="feature1">
+                    <div class="img_container">
+                        <img src="img/film-1.png" alt="">
+                    </div>
+                    <p class="small"><a href="#" class="btn btn-custom small">Hot News</a> Rabu 1 Juni 2000 - 11:37</p>
+                    <p class="desciption-film"><a href="#"> Save the Date :Itaewon Class</a></p>
+                </div>
+                <div class="card-content-big" id="feature2">
+                    <div class="img_container">
+                        <img src="img/film-2.png" alt="">
+                    </div>
+                    <p class="small"><a href="#" class="btn btn-custom small">Hot News</a> Rabu 1 Juni 2000 - 11:37</p>
+                    <p class="desciption-film"><a href="#">Alasan Kenapa 5 Drama 2019 Harus Ada Season 2</a></p>
+                </div>
+                <div class="card-content-big" id="feature3">
+                    <div class="img_container">
+                        <img src="img/film-3.png" alt="">
+                    </div>
+                    <p class="small"><a href="#" class="btn btn-custom small">Movie Rekomend</a> Rabu 1 Juni 2000 - 11:37</p>
+                    <p class="desciption-film"><a href="#">10 Kdrama Wajib Tonton 2020</a></p>
+                </div>
+                <div class="card-content-big" id="feature4">
+                    <div class="img_container">
+                        <img src="img/film-4.png" alt="">
+                    </div>
+                    <p class="small"><a href="#" class="btn btn-custom small">Hot News</a> Rabu 1 Juni 2000 - 11:37</p>
+                    <p class="desciption-film"><a href="#">Coming Soon, Guide to 'Forest' Kdrama</a></p>
+                </div>
+            </div>
+            <div class="leaderboard">
+                <div class="content-card-populer-new">
+                    <div class="card-content full" id="leader1">
+                        <div class="img_container">
+                            <img src="img/drama-1.png" alt="">
+                        </div>
+                        <div class="leaderboard-content" >
+                            <p class="leaderboard-ranking">#1 </p>
+                            <div class="leaderboard-film">
+                                <p class="title"> <a href="#">While You Were Sleep</a> </p>
+                                <p class="small">
+                                    <a href="#">2017</a>,
+                                    <a href="#">Fantasy</a>,
+                                    <a href="#">Romance</a>
+                                </p>
+                            </div>
+                            <div class="leaderboard-rating">
+                                <img src="img/star.png" alt=""> 7.2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leaderboard-content" id="leader2">
+                        <div class="img_container">
+                            <img src="img/embed-1.png" alt="">
+                        </div>
+                        <div class="leaderboard-content other">
+                            <p class="leaderboard-ranking">#2 </p>
+                            <div class="leaderboard-film">
+                                <p class="title"> <a href="#">Hospital Ship</a> </p>
+                                <p class="small">
+                                    <a href="#">2017</a>,
+                                    <a href="#">Fantasy</a>,
+                                    <a href="#">Romance</a>
+                                </p>
+                            </div>
+                            <div class="leaderboard-rating">
+                                <img src="img/star.png" alt=""> 7.2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leaderboard-content" id="leader3">
+                        <div class="img_container">
+                            <img src="img/embed-2.png" alt="">
+                        </div>
+                        <div class="leaderboard-content other">
+                            <p class="leaderboard-ranking">#3 </p>
+                            <div class="leaderboard-film">
+                                <p class="title"> <a href="#">Goblin</a> </p>
+                                <p class="small">
+                                    <a href="#">2017</a>,
+                                    <a href="#">Fantasy</a>,
+                                    <a href="#">Romance</a>
+                                </p>
+                            </div>
+                            <div class="leaderboard-rating">
+                                <img src="img/star.png" alt=""> 7.2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leaderboard-content" id="leader4">
+                        <div class="img_container">
+                            <img src="img/embed-1.png" alt="">
+                        </div>
+                        <div class="leaderboard-content other">
+                            <p class="leaderboard-ranking">#4 </p>
+                            <div class="leaderboard-film">
+                                <p class="title"> <a href="#">Hospital Ship</a> </p>
+                                <p class="small">
+                                    <a href="#">2017</a>,
+                                    <a href="#">Fantasy</a>,
+                                    <a href="#">Romance</a>
+                                </p>
+                            </div>
+                            <div class="leaderboard-rating">
+                                <img src="img/star.png" alt=""> 7.2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leaderboard-content" id="leader5">
+                        <div class="img_container">
+                            <img src="img/embed-2.png" alt="">
+                        </div>
+                        <div class="leaderboard-content other">
+                            <p class="leaderboard-ranking">#5 </p>
+                            <div class="leaderboard-film">
+                                <p class="title"> <a href="#">Goblin</a> </p>
+                                <p class="small">
+                                    <a href="#">2017</a>,
+                                    <a href="#">Fantasy</a>,
+                                    <a href="#">Romance</a>
+                                </p>
+                            </div>
+                            <div class="leaderboard-rating">
+                                <img src="img/star.png" alt=""> 7.2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leaderboard-content" id="leader6">
+                        <div class="img_container">
+                            <img src="img/embed-1.png" alt="">
+                        </div>
+                        <div class="leaderboard-content other">
+                            <p class="leaderboard-ranking">#6 </p>
+                            <div class="leaderboard-film">
+                                <p class="title"> <a href="#">Hospital Ship</a> </p>
+                                <p class="small">
+                                    <a href="#">2017</a>,
+                                    <a href="#">Fantasy</a>,
+                                    <a href="#">Romance</a>
+                                </p>
+                            </div>
+                            <div class="leaderboard-rating">
+                                <img src="img/star.png" alt=""> 7.2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leaderboard-content" id="leader7">
+                        <div class="img_container">
+                            <img src="img/embed-2.png" alt="">
+                        </div>
+                        <div class="leaderboard-content other">
+                            <p class="leaderboard-ranking">#7 </p>
+                            <div class="leaderboard-film">
+                                <p class="title"> <a href="#">Goblin</a> </p>
+                                <p class="small">
+                                    <a href="#">2017</a>,
+                                    <a href="#">Fantasy</a>,
+                                    <a href="#">Romance</a>
+                                </p>
+                            </div>
+                            <div class="leaderboard-rating">
+                                <img src="img/star.png" alt=""> 7.2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leaderboard-content" id="leader8">
+                        <div class="img_container">
+                            <img src="img/embed-1.png" alt="">
+                        </div>
+                        <div class="leaderboard-content other">
+                            <p class="leaderboard-ranking">#8 </p>
+                            <div class="leaderboard-film">
+                                <p class="title"> <a href="#">Hospital Ship</a> </p>
+                                <p class="small">
+                                    <a href="#">2017</a>,
+                                    <a href="#">Fantasy</a>,
+                                    <a href="#">Romance</a>
+                                </p>
+                            </div>
+                            <div class="leaderboard-rating">
+                                <img src="img/star.png" alt=""> 7.2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leaderboard-content" id="leader9">
+                        <div class="img_container">
+                            <img src="img/embed-2.png" alt="">
+                        </div>
+                        <div class="leaderboard-content other">
+                            <p class="leaderboard-ranking">#9 </p>
+                            <div class="leaderboard-film">
+                                <p class="title"> <a href="#">Goblin</a> </p>
+                                <p class="small">
+                                    <a href="#">2017</a>,
+                                    <a href="#">Fantasy</a>,
+                                    <a href="#">Romance</a>
+                                </p>
+                            </div>
+                            <div class="leaderboard-rating">
+                                <img src="img/star.png" alt=""> 7.2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leaderboard-content" id="show-more">
+                            <a href="#" style="color: white;">Show More --></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Content -->
+    <div class="content">
+        <div class="container">
+            <div class="main-movie">
+                <p>Box Office DipusatBioskop.com</p>
+                <div class="content-card-movie">
+                    <div class="card-content" alt="" id="film1">
+                        <div class="img_container">
+                            <img src="img/drama-1.png" >
+                        </div>
+                        <p class="small"><a href="#" class="btn btn-custom small">Hot News</a> Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href="#">Drama Korea dengan Tema Kerajaan Terbaik</a></p>
+                    </div>
+                    <div class="card-content" alt="" id="film2">
+                        <div class="img_container">
+                            <img src="img/drama-2.png" >
+                        </div>
+                        <p class="small"><a href="#" class="btn btn-custom small">Movie Rekomendation</a> Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href="#"> Drama Korea Terfaforit 2019</a></p>
+                    </div>
+                    <div class="card-content" alt="" id="film3">
+                        <div class="img_container">
+                            <img src="img/drama-3.png" >
+                        </div>
+                        <p class="small"><a href="#" class="btn btn-custom small">Box Office</a> Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href="#"> 7 Ongoing Kdrama wajib nonton 2020</a></p>
+                    </div>
+                    <div class="card-content" alt="" id="film4">
+                        <div class="img_container">
+                            <img src="img/drama-1.png" >
+                        </div>
+                        <p class="small"><a href="#" class="btn btn-custom small">Hot News</a> Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href="#">Drama Korea dengan Tema Kerajaan Terbaik</a></p>
+                    </div>
+                    <div class="card-content" alt="" id="film5">
+                        <div class="img_container">
+                            <img src="img/drama-2.png" >
+                        </div>
+                        <p class="small"><a href="#" class="btn btn-custom small">Movie Rekomendation</a> Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href="#"> Drama Korea Terfaforit 2019</a></p>
+                    </div>
+                    <div class="card-content" alt="" id="film6">
+                        <div class="img_container">
+                            <img src="img/drama-3.png" >
+                        </div>
+                        <p class="small"><a href="#" class="btn btn-custom small">Box Office</a> Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href="#"> 7 Ongoing Kdrama wajib nonton 2020</a></p>
+                    </div>
+                    <div class="card-content" alt="" id="film7">
+                        <div class="img_container">
+                            <img src="img/drama-1.png" >
+                        </div>
+                        <p class="small"><a href="#" class="btn btn-custom small">Hot News</a> Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href="#">Drama Korea dengan Tema Kerajaan Terbaik</a></p>
+                    </div>
+                    <div class="card-content" alt="" id="film8">
+                        <div class="img_container">
+                            <img src="img/drama-2.png" >
+                        </div>
+                        <p class="small"><a href="#" class="btn btn-custom small">Movie Rekomendation</a> Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href="#"> Drama Korea Terfaforit 2019</a></p>
+                    </div>
+                    <div class="card-content" alt="" id="film9">
+                        <div class="img_container">
+                            <img src="img/drama-3.png" >
+                        </div>
+                        <p class="small"><a href="#" class="btn btn-custom small">Box Office</a> Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href="#"> 7 Ongoing Kdrama wajib nonton 2020</a></p>
+                    </div>
+                    <div class="card-content" alt="" id="film10">
+                        <div class="img_container">
+                            <img src="img/drama-1.png" >
+                        </div>
+                        <p class="small"><a href="#" class="btn btn-custom small">Hot News</a> Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href="#">Drama Korea dengan Tema Kerajaan Terbaik</a></p>
+                    </div>
+                    <div class="card-content" alt="" id="film11">
+                        <div class="img_container">
+                            <img src="img/drama-2.png" >
+                        </div>
+                        <p class="small"><a href="#" class="btn btn-custom small">Movie Rekomendation</a> Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href="#"> Drama Korea Terfaforit 2019</a></p>
+                    </div>
+                    <div class="card-content" alt="" id="film12">
+                        <div class="img_container">
+                            <img src="img/drama-3.png" >
+                        </div>
+                        <p class="small"><a href="#" class="btn btn-custom small">Box Office</a> Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href="#"> 7 Ongoing Kdrama wajib nonton 2020</a></p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="populer-movie">
+                <p>Terpopuler</p>
+                <div class="content-card-populer">
+                    <div class="card-content">
+                        <div class="img_container">
+                            <img src="img/drama-1.png" alt="">
+                        </div>
+                        <p class="small">Info Film Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href=""> Best Supranatural and Fantasy Romance Kdramas</a></p>
+                    </div>
+                    <div class="card-content">
+                        <div class="img_container">
+                            <img src="img/drama-1.png" alt="">
+                        </div>
+                        <p class="small">Info Film Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href=""> Best Supranatural and Fantasy Romance Kdramas</a></p>
+                    </div>
+                    <div class="card-content">
+                        <div class="img_container">
+                            <img src="img/drama-1.png" alt="">
+                        </div>
+                        <p class="small">Info Film Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href=""> Best Supranatural and Fantasy Romance Kdramas</a></p>
+                    </div>
+                    <div class="card-content">
+                        <div class="img_container">
+                            <img src="img/drama-1.png" alt="">
+                        </div>
+                        <p class="small">Info Film Rabu 1 Juni 2000 - 11:37</p>
+                        <p class="desciption-film"><a href=""> Best Supranatural and Fantasy Romance Kdramas</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination">
+                <a href="#">1</a>
+                <a class="active" href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">...</a>
+                <a href="#">Last</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="top">
+            <div class="container">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <p id="desc_footer">Pusatbioskop.com adalah media online yang membahas update informasi, review, dan
+                    rekomendasi seputar film, series, k-drama, serta anime.</p>
+                <div id="img_small">
+                    <a href="#">
+                    <img src="img/logo_facebook.png" alt="">
+                    </a>
+                    <a href="#">
+                    <img src="img/logo_twiter.png" alt="">
+                    </a>
+                    <a href="#">
+                    <img src="img/logo_instagram.png" alt="">
+                    </a>
+                    <a href="#">
+                    <img src="img/logo_youtube.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                <ul class="link">
+                    <li class="link small"><a href="#">Pedoman Media Saber</a></li>
+                    <li class="link small"><a href="#">Provacy Policy</a></li>
+                    <li class="link small"><a href="#">Disclaimer</a></li>
+                    <li class="link small"><a href="#">About Us</a></li>
+                    <li class="link small"><a href="#">Contact Us</a></li>
+                </ul>
+                <ul class="link" id="copyright">
+                    <li class="link small" >Copyright © 2020, Domigado. All Rights Reserved</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("mySearch");
+    var span = document.getElementsByClassName("close")[0];
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
+<script>
+    function openNav() {
+        document.getElementById("Sidemenu").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("Sidemenu").style.width = "0";
+    }
+
+</script>
+</html>

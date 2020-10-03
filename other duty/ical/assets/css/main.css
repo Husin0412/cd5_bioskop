@@ -1,0 +1,820 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	font-family: "Segoe UI";
+}
+
+
+/* Css For Header */
+
+.container {
+	/* border:12px solid orange; */
+	padding: 0;
+}
+.header{
+	padding: 0px 231px 0 335px;
+	height: 95px;
+	width: 100%;
+	position: relative;
+	background-color: #1d233b;
+}
+.logo-pusatbioskop{
+	position: relative;
+	top: 25px;
+	bottom: 14px;
+	max-width: 121px;
+	max-height: 40px;
+}
+.form-search {
+	width: 100%;
+	max-width: 400px;
+	position: relative;
+	margin-left: 30px;
+	display: inline-block;
+	top: 10px;
+}
+input {
+	width: 398px;
+	background: #484d61;
+	border: 1px solid white;
+	outline: none;
+	font-family: "Segoe UI", arial;
+	font-size: 14px;
+	padding: 10px 30px;
+	border-radius: 50px;
+	color: white;
+	/* display: inline; */
+}
+
+button {
+	position: absolute;
+	right: 0;
+	padding: 0 15px;
+	width: auto;
+	height: 100%;
+	outline: none;
+	color: white;
+	background: transparent;
+	border: none;
+}
+
+#input-search::placeholder {
+	color: #dbdbdb;
+	font-style: italic;
+}
+.menu-header{
+	position: relative;
+	list-style-type: none;
+	color: white;
+	font-size: 15px;
+	line-height: 20px;
+	margin-left: 300px;
+	float: right;
+	bottom: 19px;
+	font-weight: bold;
+}
+.menu-header ul li a{
+	color: white;
+}
+.list-menu-header{
+	display: inline-block;
+	padding: 0 25px 0 12px;
+}
+.bars{
+	position: relative;
+	color: white;
+	font-size:27px;
+	display: none;
+}
+
+
+
+/* End Css For Header */
+
+
+/* Css For Breadcumb*/
+
+.breadcumb {
+	margin: 0 337px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#breadcumb-title {
+	color: #666666;
+	font-size: 12px;
+	padding-top: 16px;
+}
+
+.breadcumb h2 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #1d233b;
+	display: inline;
+}
+.showmore{
+	display: none;
+}
+#title-2 {
+	float: right;
+	margin-right: 93px;
+}
+
+
+/* End Css For Sidebar */
+
+
+/* Css For Content */
+.content-1{
+	background-color: #0d1121;
+}
+.title-film{
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 20px;
+	color: black;
+}
+.title-film a{
+	color:black;
+	margin-right: 29px;
+	margin-left: 7px;
+}
+.title-film span{
+	color: black;
+}
+.title-film i, .sub-title i{
+	color: #f2c94d;
+}
+
+.category-film{
+	margin-left: 22px;
+}
+
+.kecil{
+	color: white;
+}
+.kecil a{
+	color: white;
+}
+.kecil span{
+	color: white;
+}
+.sub-title{
+	margin-left: 80px;
+}
+.sub-title .kategori{
+	color: white;
+	font-size: 10px;
+	margin-right: 24px;
+}
+.sub-title i{
+	font-size: 12px;
+}
+.sub-title .rating-span{
+	color: white;
+	font-size: 12px;
+}
+.gambar-kecil{
+	max-width: 50px;
+	max-height: 50px;
+	border-radius: 2px;
+	margin-right: 10px;
+	float: left;
+}
+
+.gallery-content1{
+	background-color: white;
+	margin: 5px;
+	border-radius: 10px;
+	/*border: 1px solid #ccc;*/
+	/* margin-right: 10px; */
+	float: left;
+	width: 400px;
+	height: 350px;
+}
+.row {
+	margin: 0 186px;
+	/*padding-top: 120px;*/
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+.column {
+	float: left;
+	width: 150px;
+	padding: 10px;
+	height: 700px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#populer {
+	background-color: #1d233b;
+	width: 258px;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+	overflow: hidden;
+	display: inline-block;
+	border-radius: 8px;
+	margin-right: 70px;
+}
+#populer-content1 {
+	background-color: #1d233b;
+	width: 258px;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+	overflow: hidden;
+	display: inline-block;
+	border-radius: 8px;
+	margin-right: 70px;
+}
+
+.box-office {
+	margin-left: 123px;
+	width: 842px;
+	padding-top: 0px;
+}
+.box-office-content1 {
+	margin-left: 123px;
+	width: 842px;
+	padding-top: 0px;
+}
+
+.img-content-wraper1 {
+	padding-top: 10px;
+	/* padding-bottom: 10px; */
+	width: 250px;
+	height: 100px;
+}
+
+.img-content1 {
+	width: 100%;
+	border-radius: 8px
+}
+
+.content-wraper-box {
+	padding: 10px;
+}
+
+.populer-content {
+	background-color: white;
+	width: 100%;
+	border-radius: 8px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.container-populer-content1{
+	height: 170px;
+}
+.populer-content-kecil{
+	width: 100%;
+	border-radius: 8px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.content-information-container-content1{
+	padding: 10px 10px 15px 10px;
+	padding-left: 0px;
+	padding-top:20px;
+	padding-left: 20px;
+}
+.content-information-container {
+	padding: 10px 10px 15px 10px;
+	padding-left: 0px
+}
+
+.content-information-container-populer {
+	padding: 5px 10px 15px 10px;
+}
+.content-information-container-populer-film{
+	padding: 5px 10px 15px 10px;
+}
+
+.content-information {
+	font-size: 10px;
+	color: #adadad;
+	margin-bottom: 10px;
+}
+.content-information-content1 {
+	font-size: 10px;
+	color: #adadad;
+	margin-bottom: 10px;
+}
+
+.post-title {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18px;
+	margin: 0;
+}
+
+.post-title-populer {
+	font-size: 14px;
+	font-weight: 700;
+	font-style: bold;
+	line-height: 18px;
+	margin: 0;
+}
+
+.kategori-boxoffice {
+	background: #1d233b;
+	color: white;
+	padding: 6px 10px;
+	border-radius: 4px;
+}
+
+.kategori {
+	color: black;
+}
+
+.title-container {
+	font-size: 17px;
+	padding-top: 10px;
+	/* font-weight: 100px; */
+}
+
+.title-boxoffice {
+	color: black;
+}
+.titlecontent1{
+	font-size: 24px;
+	line-height: 20px;
+	color: #333333;
+	font-weight: bold;
+	font-family: "Segoe UI";
+}
+
+div.gallery {
+	margin: 5px;
+	/*border: 1px solid #ccc;*/
+	margin-right: 69px;
+	float: left;
+	width: 200px;
+}
+
+div.gallery img {
+	width: 265px;
+	height: 250px;
+	/*border: 10px solid white;*/
+	padding: 0;
+}
+
+div.populer-content img {
+	width: 100%;
+	height: 116px;
+	/*border: 10px solid white;*/
+	padding: 0;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+.pagination {
+	margin: 0 318px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+
+.link-pagination {
+	padding: 11px 4px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #333333;
+	line-height: 0px;
+	display: inline-block;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.pagination a.active{
+	border-radius: 50%;
+	background-color: #1d233b;
+	color: white;
+}
+
+
+/* End Css For Content */
+
+
+/* Css For Footer */
+
+.footer-1 {
+	background: #1d233b;
+	height: 104px;
+	width: 100%;
+	padding: 0px 248px 0 335px;
+	/* text-align: center;
+	position: relative;
+	list-style: none;
+	text-decoration: none; */
+}
+
+.footer-container-1 {
+	/*margin: 0 200px;*/
+	display: inline=block;
+	/*padding-top: 120px;*/
+	padding-top: 10px;
+	/* padding-bottom: 100px; */
+}
+
+.text-footer {
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	width: 44%;
+	padding-top: 0px;
+	position: relative;
+	top: 7px;
+	margin-left: 15px;
+}
+
+.footer-2 {
+	background-color: #0d1121;
+	width: 100%;
+	position: relative;
+	height: 46px;
+	color: white;
+	font-family: "Segoe UI";
+	font-size: 12px;
+	padding-top: 15px;
+	/* text-align: center; */
+}
+
+.social-media {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	float: right;
+	top: 15px;
+	position: relative;
+}
+
+.logo-social-media {
+	max-width: 35px;
+	max-height: 35px;
+	padding: 5px;
+}
+
+.left-footer {
+	margin-left: 325px;
+}
+
+.left-footer li {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.left-footer li:not(.copyright):before {
+	content: "• ";
+}
+
+.copyright {
+	float: right;
+	margin-right: 257px;
+}
+
+
+/* Css End For Footer */
+@media screen and (max-width: 1440px) {
+	.header{
+		padding: 0 150px 0 231px;
+	}
+	.row{
+		margin: 0 73px;
+	}
+	.breadcumb {
+		margin: 0 208px;
+	}
+	.pagination{
+		padding: 40px 231px 25px 210px;
+		margin: 0;
+	}
+	.footer-1{
+		padding: 0px 143px 0 208px;
+	}
+	.left-footer {
+		margin-left: 214px;
+	}
+	.copyright{
+		margin-right: 146px;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.header{
+		padding: 0 30px 0 30px;
+	}
+	.list-menu-header {
+		padding: 0 5px 0 12px;
+	}
+	.row{
+		margin: 0;
+	}
+	.box-office-content1{
+		margin-left: 5px;
+		width: 675px;
+	}
+	.gallery-content1{
+		width: 317px;
+	}
+	#populer-content-1{
+		margin-right: 0;
+	}
+	.box-office{
+		margin-left: 0;
+	}
+	#populer{
+		width: 177px;
+		margin-right: 0 ;
+	}
+	.breadcumb{
+		margin: 0 19px;
+	}
+	.pagination{
+		padding: 25px 213px 25px 25px;
+	}
+	.footer-1 {
+		padding: 0px 20px 0 20px;
+	}
+	.left-footer {
+		margin-left: 25px;
+	}
+	.copyright {
+		margin-right: 12px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.header{
+		padding: 0 30px 0 108px;
+	}
+	.menu-header{
+		display: none;
+	}
+	.bars{
+		display: block;
+		float: right;
+		top: 35px;
+		bottom: 25px;
+		margin-right: 100px;
+		margin-left: 10px;
+	}
+	.form-search{
+		max-width: 327px;
+	}
+	input{
+		width: 328px;
+	}
+	.box-office-content1 {
+		margin-left: 100px;
+		width: 673px
+	}
+	.gallery-content1 {
+		width: 537px;
+		height: auto;
+	}
+	.content-1{
+		height: 2500px;
+	}
+	#populer-content1{
+		position: relative;
+		top: 1019px;
+		left: 250px;
+		right: 250px;
+		width: 287px;
+	}
+	.sub-title .kategori{
+		margin-right: 51px
+	}
+	.title-film a {
+		margin-right: 66px;
+	}
+	.for-mobile{
+		display: none;
+	}
+	.box-office {
+		margin-left: 93px;
+		width: 831px;
+	}
+	.content-2{
+		height: 2200px;
+	}
+	#populer{
+		position: relative;
+		top: 400px;
+		left: 250px;
+		right: 250px;
+		width: 287px;
+	}
+	.pagination {
+		padding: 0 192px 0 246px;
+	}
+}
+@media screen and (max-width: 375px){
+	.header{
+		padding: 0;
+	}
+	.header .logo-pusatbioskop{
+		left: 24px;
+	}
+	.menu-header{
+		display: none;
+	}
+	.bars{
+		display: block;
+		float: right;
+		top: -45px;
+		bottom: 25px;
+		margin-right:19px;
+		margin-left: 10px
+	}
+	#input-search{
+		display: none;
+	}
+	.search{
+		position: relative;
+		left: 220px;
+		font-size: 26px;
+		top:-25px;
+	}
+	.content-1 {
+		height: 1400px;
+	}
+	.content-2 {
+		height: 3261px;
+	}
+	.box-office-content1 {
+		margin-left: unset; 
+		width: 585px;
+	}
+	.gallery-content1 {
+		width: 346px;
+	}
+	.for-mobile2{
+		display: none;
+	}
+	#populer-content1 {
+		top: -60px; 
+		left: 50px;
+	}
+	#title-2{
+		display: none;
+	}
+	.box-office{
+		margin-left: unset;
+		width: 500px;
+	}
+	#populer{
+		top: 1470px;
+		left: 59px;
+	}
+	.breadcumb{
+		padding:0 41px;
+	}
+	div.gallery {
+		margin-left: 53px;
+	}
+	.pagination {
+		position: relative;
+		left: 62px;
+		padding: 0
+	}
+	.link-pagination{
+		padding: 10px 3px;
+	}
+	.footer-1{
+		height: 256px;
+	}
+	.footer-container-1{
+		display: block;
+	}
+	.footer-container-1 #logo-pusatbioskop{
+		display: block;
+		position: relative;
+		left: 90px;
+	}
+	.text-footer{
+		top: 58px;
+		left: 17px;
+		width: unset;
+	}
+	.social-media{
+		display: block;
+		position: relative;
+		top: 81px;
+		right: 80px;
+	}
+}
+@media screen and (max-width: 320px){
+	.header{
+		padding: 0;
+	}
+	.menu-header{
+		display: none;
+	}
+	.bars{
+		display: block;
+		float: right;
+		top: -45px;
+		bottom: 25px;
+		margin-right: 19px;
+		margin-left: 10px
+	}
+	#input-search{
+		display: none;
+	}
+	.search{
+		position: relative;
+		left: 169px;
+		font-size: 26px;
+		top:-25px;
+	}
+	.content-1 {
+		height: 1163px;
+	}
+	.content-2 {
+		height: 3261px;
+	}
+	.box-office-content1 {
+		margin-left: unset; 
+		width: 585px;
+	}
+	.gallery-content1 {
+		width: 276px;
+	}
+	.for-mobile2{
+		display: none;
+	}
+	#populer-content1 {
+		top: -99px; 
+		left: 12px;
+	}
+	#title-2{
+		display: none;
+	}
+	.box-office{
+		margin-left: unset;
+		width: 500px;
+	}
+	#populer{
+		top: 1470px;
+		left: 14px;
+	}
+	.pagination {
+		position: relative;
+		left: 17px;
+		padding: 0
+	}
+	.link-pagination{
+		padding: 10px 3px;
+	}
+	.footer-1{
+		height: 256px;
+	}
+	.footer-container-1{
+		display: block;
+	}
+	.footer-container-1 #logo-pusatbioskop{
+		display: block;
+		position: relative;
+		left: 90px;
+	}
+	.text-footer{
+		top: 58px;
+		left: 17px;
+		width: unset;
+	}
+	.social-media{
+		display: block;
+		position: relative;
+		top: 81px;
+		right: 43px;
+	}
+	div.gallery {
+		margin-left: 20px;
+	}
+	.breadcumb {
+		padding: 0px 15px;
+	}
+	.showmore{
+		display: block;
+	}
+	.show-more{
+		color: white;
+	}
+}

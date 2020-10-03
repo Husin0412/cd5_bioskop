@@ -1,0 +1,278 @@
+/* start body */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container-recom {
+    width: 1020px;
+    margin: 50px auto;
+    /* height: 1000px; */
+}
+
+/* start top body */
+.back-recom{
+    background-color: #0d1121;
+    /* border: 1px solid red; */
+}
+
+.recom-recomendation{
+    display: inline-block;
+    width: 790px;
+}
+
+.sec-recomendation {
+    max-width: 775px;
+    height: 350px;
+    margin: auto;
+    /* overflow: auto; */
+    display: inline-block;
+    /* border: 1px solid blue; */
+}
+
+.inline-recommendation-populer1{
+    padding-top: 50px;
+}
+
+.sec-recomendation p span {
+    font-weight: bold;
+}
+
+.recomendation {
+    margin: 3px;
+    /* border: 1px solid white; */
+    float: left;
+    width: 385px;
+    height: inherit;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.recomendation img {
+    width: 100%;
+    height: auto;
+}
+
+.container p {
+    padding-top: 1%;
+}
+
+.desc-recom {
+    padding: 10px 0 0 10px;
+    text-align: left;
+}
+
+.desc-recom span {
+    background-color: #1d233b;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.recomendation .title h3{
+    padding: 0px 10px 0px 10px;
+    font-size: x-large;
+}
+
+.container-populer1 {
+    margin: auto;
+    overflow: auto;
+    display: inline-block;
+    /* max-width: 200px; */
+    background-color: #1d233b;
+    border: 4px solid #1d233b;
+    border-radius: 10px;
+}
+
+.populer1 {
+    margin: 5px;
+    /* border: 1px solid white; */
+    float: left;
+    width: 222px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.populer1 img {
+    width: 100%;
+    height: auto;
+}
+
+h5 span{
+    float: right;
+}
+
+.desc-populer1 {
+    margin: 2px 5px;
+    padding: 2px 0;
+    text-align: left;
+    font-size: x-small;
+}
+
+.list-populer1{
+    height: 232px;
+}
+
+.list-populer1.not-first{
+    height: 58px;
+}
+
+.list-populer1 .text-title{
+    display: inline-block;
+    width: 177px;
+}
+
+/* .list-populer1 .number{
+    display: inline-block;
+    width: 20px;
+} */
+
+.list-populer1 p{
+    color: white;
+}
+
+.text-title .text-title-p{
+    font-size: smaller;
+    margin: 0;
+}
+
+.text-title-p .number{
+    margin: 0 15px 0 10px;
+}
+
+.text-title-p .span-star{
+    float: right;
+}
+
+.text-title .text-desc-p{
+    font-size: x-small;
+    text-align: center;
+}
+
+.fa-star{
+    color: #f2c94d;
+}
+
+.aside-populer1 {
+    width: 22%;
+    float: right;
+    /* position: relative;
+    top: -350px; */
+    /* background-color: lightgray; */
+}
+/* end top body */
+/* end body */
+
+@media screen and (max-width:1025px){
+    .recom-recomendation {
+        width: 770px;
+    }
+    .recomendation {
+        width: 375px;
+    }
+    .aside-populer1 {
+        width: 24%;
+    }
+}
+
+@media screen and (max-width:769px){
+    .container-recom {
+        margin: 130px auto 25px auto;
+    }
+    .recomendation{
+        width: 370px;
+    }
+    .aside-populer1 {
+        width: 750px;
+        float: unset;
+    }
+    .populer1 {
+        float: unset;
+    }
+    .list-populer1{
+        height: 85px;
+    }
+    .list-populer1.not-first {
+        height: 85px;
+    }
+    .list-populer1 img{
+        width: 75px;
+    }
+    .container-populer1{
+        width: 100%;
+    }
+    .populer1{
+        width: 100%;
+    }
+    .title h5{
+        font-size: xx-large;
+    }
+    .desc-populer1{
+        font-size: large;
+    }
+    .list-populer1 .text-title {
+        width: 75%;
+    }
+    .text-title .text-title-p {
+        font-size: larger;
+    }
+    .text-title .text-desc-p {
+        font-size: medium;
+        text-align: left;
+        margin-left: 45px;
+    }
+}
+@media screen and (max-width:426px){
+    .container-recom {
+        width: 250px;
+        margin: 75px auto 25px auto;
+    }
+
+    .inline-recommendation-populer1 {
+        padding-top: 0;
+    }
+
+    .recom-recomendation{
+        width: 100%;
+    }
+
+    .sec-recomendation{
+        height: auto;
+    }
+
+    .recomendation{
+        width: 100%;
+        height: auto;
+    }
+    
+    .desc-recom{
+        font-size: small;
+    }
+    .recomendation .title h3 {
+        font-size: medium;
+    }
+    .aside-populer1 {
+        width: 250px;
+        float: unset;
+    }
+    .title h5 {
+        font-size: small;
+    }
+    .desc-populer1 {
+        font-size: small;
+    }
+    .list-populer1 img {
+        width: 58px;
+    }
+    .list-populer1 .text-title {
+        width: 70%;
+    }
+    .text-title .text-title-p {
+        font-size: small;
+    }
+    .text-title .text-desc-p {
+        font-size: x-small;
+        text-align: center;
+        margin-left: unset;
+    }
+}

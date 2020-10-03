@@ -1,0 +1,146 @@
+/* start footer */
+.footer {
+    /* position: relative; */
+    position: absolute;
+    width: 100%;
+    /* border: 1px solid red; */
+    left: 0;
+    right: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-1{
+    background-color: #1d233b;
+}
+
+.DescripWeb {
+    width: 1024px;
+    /* text-align: center; */
+    display: block;
+    color: white;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.DescripWeb .DescripWeb-text {
+    /* border: 1px solid yellow; */
+    width: 55%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.DescripWeb .logososmed {
+    /* border: 1px solid yellowgreen; */
+    /* width: 10%; */
+    display: inline;
+    padding-left: 15%;
+    vertical-align: middle;
+}
+
+.DescripWeb .logo {
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.footer-2{
+    background-color: #0d1121;
+}
+
+.aboutUs {
+    /* vertical-align: middle; */
+    width: 1024px;
+    padding: 5px 0;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.aboutUs ul {
+    margin: 0;
+    /* width: 55%; */
+    /* border: 1px solid white; */
+    display: inline-block;
+    font-size: small;
+}
+
+.aboutUs li {
+    display: inline-block;
+    color: white;
+    /* border: 1px solid yellow; */
+}
+
+.copyright {
+    display: inline-block;
+    color: white;
+    /* border: 1px solid yellowgreen; */
+    /* width: 40%; */
+    float: right;
+    height: 20px;
+    font-size: small;
+    /* padding-left: 15%; */
+}
+
+.aboutUs li a {
+    padding: 0px 12px;
+}
+
+@media screen and (max-width:769px){
+    .DescripWeb{
+        width: 768px;
+    }
+    .DescripWeb .logososmed {
+        padding-left: unset;
+        float: right;
+    }
+    .aboutUs {
+        width: 768px;
+    }
+    .aboutUs ul {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:426px){
+    .footer-1{
+        height: 180px;
+    }
+
+   .DescripWeb{
+       width: 320px;
+   }
+
+   .DescripWeb .logo {
+    margin: 0 25%;
+    }
+
+    .DescripWeb .DescripWeb-text {
+        width: unset;
+        text-align: center;
+    }
+    .DescripWeb .logososmed {
+        padding-left: 0;
+        margin: 0 25%;
+    }
+
+    .footer-2{
+        height: 100%;
+    }
+
+    .logososmed img{
+        padding: 0 5px;
+    }
+    .aboutUs{
+        width: 320px;
+    }
+
+    .aboutUs ul {
+        font-size: xx-small;
+        padding: 0;
+        text-align: center;
+    }
+    .copyright{
+        float: unset;
+        margin: 0 9%;
+    }
+}
+/* end footer */

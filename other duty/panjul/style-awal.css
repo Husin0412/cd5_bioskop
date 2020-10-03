@@ -1,0 +1,909 @@
+
+body {
+    margin: 0;
+    background: #ffffff;
+    font-family: 'Segoe UI', arial
+}
+/* *{
+   border: 1px solid black;     
+ }  */
+/* Header*/
+.header{
+    width: 100%;
+    background-color: #1d233b;
+}
+.header > .container-head{
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 12px;
+}
+.header > .container-head > .ct-block{
+    display: inline-block;
+}
+.logo-bioskop{
+    display: inline-block;
+}
+.logo-bioskop .logo{
+    height: 65px;
+    width: 158px;
+    max-width: 158px;
+    background-image: url(./Logo-Bioskop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+}
+
+.contain-inpt{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    width: 458px;
+    position: relative;
+}
+.contain-inpt .search{
+    background: rgba(246, 247, 249, 0.2);
+    border: 1px solid #f6f7f9;
+    outline: none;
+    font-size: 14px;
+    color: #f6f7f9;
+    padding: 14px;
+    width: 400px;
+    padding-right: 57px;
+    border-radius: 100px;
+}
+.contain-inpt .search::placeholder{
+    color: white;
+}
+.contain-inpt button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+    bottom: 8px;
+    right: 0px;
+}
+
+.nav_link{
+    margin-top: 8px;
+    float: right;
+}
+.nav_link > ul {
+    list-style: none;
+}
+.nav_link > ul > li{
+    display: inline-block;
+}
+.nav_link > ul > li > a{
+    color: white;
+    text-decoration: none;
+    margin-right: 37px;
+}
+.search-mobile{
+    display: none;
+}
+.bars-icon{
+    display: none;
+}
+/* Header End */
+
+/* Content */
+.container {
+    width: 100%;
+    background-color: #0d1121;
+}
+.container > .size-content{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.container > .size-content > .width-100{
+    width: 100%;
+    padding-top: 20px;
+}
+.container > .size-content > .width-100 > .card-content{
+    width: 73%;
+    display: inline-block;
+    vertical-align: top;
+}
+.container >.size-content > .width-100  > .card-content > .card-2{
+    display: inline-block;
+    vertical-align: top;
+    margin: 8px 4px
+}
+.card-view {
+    background-color: white;
+    width: 475px;
+    height: 392px;
+    border-radius: 8px;
+}
+.card-view  img{
+    background-color: gray;
+    border-radius: 8px;
+    width: 100%;
+    height: 235px;
+    object-fit: cover;
+}
+.card-head{
+    margin: 25px 15px;
+}
+.card-head > .button-film{
+    color: white;
+    background-color: #1d233b;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+.card-head span{
+    color: gray;
+}
+.p-card{
+    margin: 25px 15px;
+}
+.right-content{
+    background-color: #1d233b;
+    border-radius: 15px;
+    width: 22%;
+    display: inline-block;
+}
+
+.right-content > .right-size{
+    width: 95%;
+    margin: 5px;
+}
+.right-content > .right-size > a{
+    text-decoration: none;
+    color: black;
+}
+.right-content > .right-size  > a > .content-top{
+    background-color: white;
+    width: 100%;
+    margin: 10px 3px;
+    border-radius: 12px;
+}
+.content-top > img{
+    width: 100%;
+    border-radius: 8px;
+}
+.text-top > .text-div-stars{
+    display: inline-block;
+    width: 95%;
+    margin: 10px;
+}
+.text-div-stars > h3{
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+}
+.text-div-stars  .height-gray{
+    margin: 0 22px;
+    color: gray;
+}
+.stars-top{
+    float: right;
+    margin: 0;
+}
+.yellow{
+  color: #f2c94d;
+  margin: 4px;
+}
+.small-content { 
+    margin: 10px 5px;
+    width: 100%;
+}
+.small-content  img{
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    object-fit: cover;
+    width: 25%;
+}
+.right-text{
+    width: 70%;
+    float: right
+}
+.right-text > h4{
+    display: inline-block;
+    margin: 0;
+    color: white;
+    font-size: 12px;
+}
+.right-text  .small-gray{
+    margin: 0px 6px;
+    font-size: 12px;
+    color: white;
+}
+.right-text  .stars{
+  float: right;
+  font-size: 12px;
+  color: white;
+}
+.containt2{
+    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+}
+.containt2 > .max-content-bioskop{
+    width: 70%;
+    margin: 0 auto;
+}
+.containt2 > .max-content-bioskop > .widht-8 {
+    width: 81%;
+    display: inline-block;
+    vertical-align: top;
+}
+.containt2 > .max-content-bioskop >.widht-8 > h3 {
+    font-weight: unset;
+}
+.view-bottom{
+    width: 32%;
+    display: inline-block;
+    margin: 0 3px;
+}
+.view-bottom > .view-3 {
+    width: 100%;
+}
+.view-bottom > .view-3 > .img-content{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.img-content > img{
+    width: 100%;
+}
+.text-view3 {
+    margin: 10px 0;
+}
+.text-view3 > a{
+    color: white;
+    background-color: #1d233b;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+.text-view3 span{
+    font-size: 12px;
+    color: gray;
+}
+.judul-content > p{
+    width: 75%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.div-bottom-right{
+    width: 18%;
+    display: inline-block;
+}
+.div-bottom-right  .view-content-right{
+    background-color: #1d233b;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 18px;   
+}
+.view-content-right > .card-right-view{
+    background-color: white;
+    width: 100%;
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.view-content-right > .card-right-view > a{
+    color: black;
+}
+.view-content-right > .card-right-view > a > img{
+    width: 100%;
+}
+.right-view{
+    margin: 10px;
+    padding: 10px;  
+}
+.right-view > .info-film{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0;
+}
+.right-view .date{
+    margin: 0;
+    display: inline-block;
+    font-size: 11px;
+    color: gray;
+}
+
+.right-view .text-content2{
+    margin: 0;
+    display: inline-block;
+    font-weight: 700;
+}
+.content-right {
+    margin-top: 18px;
+}
+.content-right > h3{
+    margin: 0;
+    font-weight: unset;
+}
+.page-break{
+    width: 100%;
+}
+.page-break > ul{
+    list-style: none;
+    margin-left: -45px;
+}
+.page-break > ul > li > a.active{
+    color: white;
+    padding: 2px 8px;
+    background-color: #1d233b;
+    border-radius: 12px;
+}
+.page-break > ul > li{
+    display: inline-block;
+}
+.page-break > ul > li > a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    font-weight: 700;
+}
+
+/* End Content */
+
+/*  Footer */
+.footer{
+    background-color: #1d233b;
+    width: 100%;
+}
+.footer > .container-footer {
+    max-width: 70%;
+    padding: 12px;
+    margin: 0 auto;
+}
+.footer > .container-footer > .w100{
+    width: 100%;
+}
+.footer > .container-footer > .w100 > .logo-footer{
+    display: inline-block;
+}
+.logo-footer  .img-foot{
+    height: 65px;
+    width: 158px;
+    max-width: 158px;
+    background-image: url(./Logo-Bioskop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+}
+.w-70{
+    width: 84%;
+    display: inline-block;
+    margin: 6px;
+}
+.text-content{
+    float: left;
+}
+.text-content > p {
+    color: white;
+    text-align: left;
+    margin: 0;
+}
+.head-text{
+    display: inline-block;
+}
+.sosmed-footer
+{
+    float: right;
+    margin: 10px 38px;
+}
+.footer-2{
+    background-color: #0d1121;
+    width: 100%;
+}
+.footer-2 > .max-content{
+    max-width: 74%;
+    margin: 0 auto;
+}
+.footer-2 > .max-content > .content-text{
+    display: inline-block;
+    width: 48%;
+}
+.content-text > ul {
+    list-style: none;
+}
+.content-text > ul > li {
+    display: inline-block;
+}
+.content-text > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+.copyright-right {
+    margin: 0 10px;
+    width: 34%;
+    float: right;
+}
+.copyright-right > p{
+    color: white;
+}
+.mobile-menus{
+    display: none;
+}
+/* End Footer */
+
+@media only screen and (min-width: 1875px) {
+    .header > .container-head {
+        max-width: 70%;
+    }
+    .container > .size-content > .width-100 > .card-content{
+        width: 74%;
+    }
+    .nav_link > ul > li > a {
+        margin-right: 58px;
+    }
+   
+}
+
+@media only screen and (max-width: 1440px) {
+    .header > .container-head{
+        max-width: 85%;
+    }
+    .container > .size-content{
+        max-width: 86%;
+    }
+    .card-view {
+        width: 430px;
+        height: 380px;
+    }
+    .containt2 > .max-content-bioskop {
+        width: 86%;
+    }
+    .containt2 > .max-content-bioskop > .widht-8 {
+        width: 79%;
+    }
+    .div-bottom-right {
+        width: 20%;
+    }
+    .footer > .container-footer {
+        max-width: 84%;
+    }
+    .footer-2 > .max-content {
+        max-width: 88%;
+    }
+    .container >.size-content > .width-100 > .card-content > .card-2 {
+        vertical-align: bottom;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    .contain-inpt{
+        width: 365px;
+    }
+    .contain-inpt .search{
+        width: 300px;
+    }
+    .nav_link > ul > li > a{
+        margin-right: 20px;
+    }
+    .container > .size-content > .width-100 > .card-content{
+        width: 77%;
+    }
+    .card-view {
+        width: 400px;
+    }
+    .card-head {
+        margin: 15px 10px;
+    }
+    .p-card {
+        margin: 15px 15px;
+    }
+    .right-view {
+        margin: 0px 10px;
+        padding: 0px;
+    }
+    .w-70 {
+        width: 83%;
+    }
+    .footer-2 > .max-content > .content-text {
+        width: 52%;
+    }
+    .copyright-right {
+        width: 37%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .header > .container-head > .ct-block {
+        width: 100%;
+    }
+    .logo-bioskop {
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .contain-inpt {
+        vertical-align: top;
+        margin: 10px;
+        width: 255px;
+    }
+    .containt2 > .max-content-bioskop > .widht-8 {
+        width: 70%;
+    }
+    .contain-inpt .search {
+        max-width: 400px;
+        width: 400px;
+        max-width: 200px;
+        width: 200px;
+        padding-right: 50px;
+        border-radius: 100px;
+    }
+    .nav_link {
+        margin-top: 8px;
+        float: right;
+        display: block;
+        width: 52%;
+    }
+    .nav_link > ul > li > a{
+        margin-right: 8px;
+    }
+    .logo-bioskop .logo {
+        height: 40px;
+        width: 110px;
+        max-width: 110px;
+    }
+    .container > .size-content > .width-100 > .card-content {
+        width: 70%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .container >.size-content > .width-100 > .card-content > .card-2 {
+        display: inline-block;
+        vertical-align: bottom;
+        margin: 0;
+    }
+    .card-view {
+        width: 300px;
+        height: 320px;
+        margin: 3px;
+    }
+    .card-view img {
+        background-color: gray;
+        border-radius: 8px;
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+    }
+    .card-head {
+        margin: 8px 0px;
+    }
+    .p-card {
+        margin: 5px 10px;
+    }
+    .card-head > .button-film{
+        font-size: 12px;
+        margin: 0 10px;
+    }
+    .card-head span {
+        font-size: 11px;
+    }
+    .container > .size-content > .width-100 {
+        padding-top: 20px;
+    }
+    .right-content {
+        width: 29%;
+    }
+    .right-content > .right-size > a > .content-top{
+        width: 100%;
+        margin: 0;
+    }
+    .text-top > .text-div-stars {
+        width: 97%;
+        margin: 5px;
+    }
+    .text-div-stars > h3 {
+        margin: 0;
+        font-size: 13px;
+    }
+    .stars-top {
+        float: right;
+        margin: 0;
+    }
+    .text-div-stars .height-gray {
+        margin: 0 14px;
+    }
+    .small-content img {
+        height: 38px;
+    }
+    .view-bottom {
+        width: 31%;
+        margin: 1px 3px;
+        vertical-align: text-top;
+    }
+    .text-view3 > a {
+        padding: 4px 5px;
+        font-size: 10px;
+    }
+    .text-view3 span {
+        font-size: 9px;
+    }
+    .judul-content > p{
+        font-size: 13px;
+        font-weight: 600;
+        margin: 0;
+    }
+    .div-bottom-right .view-content-right{
+        padding: 5px;
+    }
+    .view-content-right > .card-right-view{
+        width: 95%;
+        margin: 5px auto;
+        margin-top: 5px;
+    }
+    .view-content-right > .card-right-view > a > img {
+        width: 100%;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .right-view {
+        margin: 0px;
+        padding: 5px;
+    }
+    .right-view > .info-film {
+        font-size: 11px;
+        margin: 0;
+    }
+    .right-view .date {
+        margin: 0;
+        font-size: 11px;
+    }
+    .right-view .text-content2 {
+        font-size: 13px;
+        margin: 0;
+    }
+    .div-bottom-right {
+        width: 29%;
+    }
+    .footer > .container-footer > .w100 > .logo-footer{
+        vertical-align: sub;
+    }
+    .logo-footer .img-foot {
+        height: 45px;
+        width: 130px;
+        max-width: 130px;
+    }
+    .w-70{
+        width: 81%;
+        margin: 0;
+    }
+    .text-content {
+        float: none;
+        font-size: 14px;
+        display: inline-block;
+    }
+    .sosmed-footer {
+        margin: 10px 0px;
+    }
+    .copyright-right {
+        margin: 3px 0px;
+        width: 40%;
+    }
+    .content-text > ul > li > a {
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .footer-2 > .max-content > .content-text {
+        width: 59%;
+    }
+    .copyright-right > p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav_link {
+        display: none;
+    }
+    .header > .container-head {
+        max-width: 90%;
+    }
+    .container > .size-content {
+        max-width: 90%;
+    }
+    .card-view {
+        width: 233px
+    }
+    .card-head {
+        margin: 8px 0px;
+    }
+    .card-head > .button-film {
+        font-size: 10px;
+        margin: 0 3px;
+    }
+    .card-head span {
+        font-size: 9px;
+    }
+    .card-head > .button-film {
+        padding: 8px 5px;
+    }
+    .right-text .small-gray {
+        font-size: 11px
+    }
+    .right-view .date {
+        font-size: 10px;
+    }
+    .footer > .container-footer {
+        max-width: 100%;
+    }
+    .footer > .container-footer > .w100 > .logo-footer {
+        vertical-align: unset;
+        text-align: center;
+        display: block;
+    }
+    .w-70 {
+        width: 100%;
+        margin: 0;
+    }
+    .text-content {
+        text-align: center;
+        display: block;
+        margin: 10px;
+    }
+    .text-content > p {
+        color: white;
+        text-align: unset;
+        margin: 0;
+    }
+    .sosmed-footer {
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .sosmed-footer > a {
+        margin-right: 10px;
+    }
+    .mobile-menus{
+        display: inline-block;
+    }
+    .contain-inpt{
+        display: none;
+    }
+    .mobile-menus{
+        font-size: 45px;
+        color: white;
+        float: right
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .logo-bioskop {
+        display: inline-block; 
+        padding: 10px 0px;
+    }
+    .logo-bioskop .logo {
+        height: 50px;
+        width: 115px;
+        max-width: 115px;
+    }
+    .container > .size-content {
+        max-width: 96%;
+    }
+    .contain-inpt {
+        display: none;
+    }
+    .nav_link {
+        display: none;
+    }
+    .card-view {
+        width: 100%;
+        height: 350px;
+    }
+    .card-head {
+        margin: 10px 15px;
+    }
+    .p-card {
+        margin: 0px 18px;
+    }
+    .right-content {
+        width: 100%;
+    }
+    .containt2 > .max-content-bioskop {
+        width: 85%;
+    }
+    .containt2 > .max-content-bioskop > .widht-8 {
+        width: 100%;
+    }
+    .view-bottom {
+        width: 95%;
+    }
+    .judul-content > p {
+        width: 100%;
+    }
+    .div-bottom-right {
+        width: 100%;
+    }
+    .div-bottom-right .view-content-right {
+        width: 94%;
+        white-space: nowrap;
+        overflow-x: scroll;
+    }
+    .view-content-right > .card-right-view {
+        display: inline-block;
+    }
+    .right-view .text-content2 {
+        display: block;
+        white-space: break-spaces;
+    }
+    .footer > .container-footer {
+        max-width: 100%;
+    }
+    .footer > .container-footer > .w100 > .logo-footer {
+        display: block;
+        text-align: center;
+    }
+    .text-content {
+        float: none;
+    }
+    .w-70 {
+        width: 100%;
+        display: block;
+        margin: 0px;
+    }
+    .text-content > p {
+        color: white;
+        text-align: center;
+        margin: 0;
+    }
+    .sosmed-footer {
+        float: none;
+        margin: 15px;
+        text-align: center;
+    }
+    .sosmed-footer img{
+        margin: 0 10px;
+    }
+    .page-break {
+        text-align: center;
+    }
+    .footer-2 > .max-content {
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer-2 > .max-content > .content-text {
+        display: block;
+        width: 100%;
+    }
+    .content-text > ul {
+        padding: 0;
+    }
+    .copyright-right {
+        margin: 0;
+        width: 100%;
+        float: none;
+    }
+    .container > .size-content > .width-100 > .card-content {
+        width: 100%;
+    }
+    .right-content {
+        width: 95%;
+    }
+    .right-content > .right-size {
+        width: 95%;
+        margin: 5px;
+    }
+    .card-head > .button-film {
+        font-size: 12px;
+    }
+    .card-head span {
+        font-size: 12px;
+    }
+    .p-card > h3{
+        font-size: 16px;
+    }
+    .header > .container-head > .ct-block {
+        text-align: unset;
+    }
+    .mobile-menus{
+        font-size: 45px;
+        color: white;
+        float: right;
+        margin-top: 10px;
+    }
+}
+/* Media Screen */

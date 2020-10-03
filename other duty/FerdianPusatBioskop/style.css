@@ -1,0 +1,682 @@
+.main-body{
+  padding: unset;
+}
+/* CONTAINER */
+.container{
+  width: 1250px;
+  margin: 0 auto;
+}
+.header{
+  background-color: #1d233b;
+  height: 88px;
+}
+.nav-bar img{
+  margin-top: 2%;
+}
+.nav-bar ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 3%;
+}
+.nav-bar li{
+  display: inline;
+  padding: 20px;
+}
+.nav-bar a{
+  text-decoration: none;
+  color: white;
+  font-family: "Segoe UI";
+  font-weight: bold;
+}
+.nav-bar form{
+  display: inline;
+}
+.nav-bar input{
+  width: 30%;
+  padding: 1% 1%;
+  border-radius: 20px;
+  border-color: white;
+  background-color: #484d61;
+  vertical-align: top;
+  margin-left: 8%;
+  margin-top: 2%;
+  color: white;
+}
+.nav-bar input:focus{
+  color: white;
+  outline: none;
+}
+.nav-bar input::placeholder{
+  color: white;
+  background-image: url('img/search.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  font-style: italic;
+}
+/* ICON FONTAWESOME */
+.fa-star{
+  color: #f2c94d;
+  float: right;
+  margin-right: 14px;
+  margin-top: 4%;
+  font-size: 12px;
+}
+
+/* MAIN CONTENT */
+.content{
+  display: inline-block;
+  width: 100%;
+}
+.main-section{
+  background-color: #0d1121;
+}
+.main-content{
+  display: inline-block;
+  width: 75%;
+  margin-top: 10px;
+  margin-bottom: 26px;
+}
+.card-item{
+  display: inline-block;
+  width: 48%;
+  height: 422px;
+  background-color: white;
+  margin : 6px 4px;
+  border-radius: 5px;
+  vertical-align: top;
+}
+.card-item img{
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+}
+.card-item a{
+  font-family: "Segoe UI";
+  font-size: 11px;
+  width: 54px;
+  height: 14px;
+}
+.card-item a:link,.card-item a:visited {
+  background-color: #0d1121;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.card-item a:hover,.card-item a:active {
+  background-color: #0d1121;
+}
+
+.card-item span{
+  display: inline-block;
+  width: 100%;
+  margin:4px;
+}
+.title-movie{
+  font-weight: bold;
+  font-family: "Segoe UI";
+  font-size: 20px;
+
+}
+/* ASIDE ATAS */
+.aside-content{
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  padding: 2px 13px;
+  background-color: #1d233b;
+  border-radius: 10px;
+  margin-top: 18px;
+
+}
+.trending-aside{
+  display: inline-block;
+  width: 100%;
+  font-family: "Segoe UI";
+  background-color: #1d233b;
+  border-radius: 10px;
+  margin:0 auto;
+}
+.card-itemaside{
+  background-color: #1d233b;
+  display: inline-block;
+  width: 100%;
+  margin: 4px auto;
+  border-radius: 16px;
+  color: white;
+}
+.act{
+  background-color: white;
+  color: black;
+  height: 250px;
+}
+.card-itemaside .trending1{
+  border-radius: 16px;
+  width: 100%;
+}
+.card-itemaside span{
+  font-family: "Segoe UI";
+  font-size: 10px;
+  padding: 22px;
+}
+.card-itemaside .title-trending{
+  font-size: 14px;
+  font-weight: bold;
+}
+.trending-btm{
+  display: inline-block;
+  width: 56px;
+  height: 58px;
+}
+.hastagtrending{
+  display: inline-block;
+  width: 8%;
+  font-size: -19px;
+  vertical-align: top;
+  font-weight: bold;
+  padding: unset !important;
+  margin-top: 4%;
+}
+.ultranding{
+  display: inline-block;
+  width: 40%;
+  font-size: 15px;
+  padding: unset;
+  margin: unset;
+  list-style-type: none;
+  padding: unset;
+  vertical-align: top;
+  margin-top: 12px;
+}
+.diff-font{
+  padding: 5px 0;
+  font-size: 10px;
+}
+}
+.card-itemaside i{
+  display: inline-block;
+  width: 19%;
+  font-size: 75%;
+}
+.card-itemaside .trending-btm{
+  width: 22%;
+  border-radius: 15px;
+}
+
+/* Bottom Content */
+.sec-contain{
+  display: inline-block;
+  width: 100%
+}
+.secondmain-section{
+  font-family: "Segoe UI";
+}
+.btm-content{
+  display: inline-block;
+  width: 75%;
+}
+.parent-aside{
+  display: inline-block;
+  width: 24%;
+  vertical-align: top;
+}
+.asidebtm-content{
+  display: inline-block;
+  width: 24%;
+  padding: 18px 0;
+  vertical-align: top;
+}
+.judulbtm-content{
+  padding: 18px 0;
+}
+.judulaside-content{
+  padding-bottom: 18px;
+}
+.item-content{
+  display: inline-block;
+  width: 32%;
+  margin: 5px 0 42px;
+  border-radius: 10px;
+}
+.item-content img{
+  width: 100%;
+  border-radius: 10px;
+  height: 148px;
+}
+.item-content span{
+  display: inline-block;
+  width: 100%;
+}
+.sc-spanatas{
+  font-size: 10px;
+}
+.sc-spanbawah{
+  font-size: 15px;
+  font-weight: bold;
+}
+.sc-spanatas a{
+  background-color: #1d233b;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.paren-terpopuler{
+  display: inline-block;
+  width: 100%;
+  background-color: #1d233b;
+  border-radius: 10px;
+}
+.asideitem-content{
+  display: inline-block;
+  width:90%;
+  margin: 10px 16px;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+.asideitem-content img{
+  display: inline-block;
+  width:100%;
+  border-radius: 10px;
+}
+.asideitem-content a{
+  background-color: #1d233b; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.asideitem-content span{
+  display: inline-block;
+  width: 100%;
+  padding-left: 10px;
+}
+.spanasideatas{
+  font-size: 10px;
+}
+.spanasidebawah{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.footer{
+  background-color: #1d233b;
+  padding-top: 16px;
+  height: 130px;
+}
+.card-footer{
+  display: inline-block;
+  width: 100%;
+}
+.card-footer span{
+  color: white;
+  width: 59%;
+}
+.sosmed{
+  display: inline-block;
+  width: 100%;
+}
+.sosmed ul{
+  list-style-type: none;
+  padding:unset;
+}
+.sosmed li{
+  display: inline-block;
+  width: 20;
+  float: right;
+  margin : 16px;
+}
+.footer-bawah{
+  background-color: #0d1121;
+  color: white;
+  font-family: "Segoe UI";
+}
+.copyright{
+  display: inline-block;
+  width: 48%;
+}
+.copyright-btm{
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+.copyright li{
+  display: inline-block;
+}
+.copyright ul{
+  list-style-type: square;
+  padding:unset;
+}
+.logobawah{
+  display: inline-block;
+  width: 12%;
+}
+.paragraf-sosmed{
+  display: inline-block;
+  width:87%;
+}
+.content-pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.pagination{
+  font-family: "Segoe UI";
+  height: 80px;
+}
+.pagination .active{
+  background-color: #050505;
+  border-radius: 50%;
+  color: white;
+}
+.paragraf-sosmed-span{
+  display: inline-block;
+  width: 60%;
+}
+.paragraf-sosmed-link{
+  display: inline-block;
+  width: 38%;
+}
+.content-btm{
+  display: inline-block;
+  width: 100%;
+}
+.content-btm{
+  font-size: 15px;
+}
+@media only screen and (max-width: 1350px) {
+.container {
+  width: 1050px;
+  margin: 0 auto;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1024px) {
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+.header {
+  height: auto;
+}
+.nav-bar input {
+  width: 34%;
+  margin: 2% 0 0 2%;
+}
+.nav-bar ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 3%;
+  font-size: 10px;
+}
+.nav-bar li {
+  padding:unset;
+  margin-right: 7px;
+}
+.main-content{
+  width: 72%;
+}
+.act {
+  height: 180px;
+}
+.card-item {
+  width: 98%;
+  height: 440px;
+}
+.card-item span{
+  font-size: 20px;
+}
+.title-movie{
+  font-weight: bold;
+  font-family: "Segoe UI";
+  font-size: 16px;
+}
+.card-itemaside .trending-btm {
+  width: 100%;
+}
+.card-itemaside span {
+  font-family: "Segoe UI";
+  font-size: 18px;
+  padding: 22px;
+  margin-top: 13px;
+}
+.ultranding{
+  width: 60%;
+  margin-left: 7%;
+}
+.act span{
+  padding: unset;
+}
+.startbtm {
+  font-weight: 900;
+  font-size: 9px;
+  margin-top: 16px;
+}
+.genre-trending{
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.asideitem-content{
+  margin: 10px 16px 3px 8px;
+}
+.content-btm{
+  font-size: 10px;
+}
+.logobawah{
+  width: 21%;
+}
+.paragraf-sosmed{
+  width: 77%;
+  font-size: 10px;
+}
+.sosmed li {
+  margin: unset;
+}
+.footer{
+  height: 70px;
+}
+.pagination{
+  font-size: 14px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+.nav-bar input {
+  width: 47%;
+  padding: 2% 1%;
+  margin-top: 8%;
+  margin-left: 14%;
+}
+.nav-bar ul{
+  display: none;
+}
+.main-content{
+  width: 100%;
+}
+.nav-bar img {
+  margin-top: 4%;
+}
+.nav-bar input {
+  margin-top: 18px;
+  margin-left: 0;
+}
+.title-movie {
+  font-weight: bold;
+  font-family: "Segoe UI";
+  font-size: 14px;
+}
+.parent-aside{
+  width:100%;
+}
+.card-itemaside .trending-btm {
+  width: 23%;
+}
+.act {
+  height: 354px;
+}
+.card-itemaside .title-trending {
+  font-size: 25px;
+  font-weight: bold;
+}
+.aside-content {
+  margin-bottom: 15px;
+}
+.btm-content {
+  width: 100%;
+}
+.asidebtm-content{
+  width: 100%;
+}
+.asideitem-content{
+  margin: 10px 5% 10px 5%;
+}
+.content-pagination a{
+  float: left;
+  padding: 4px 11px;
+}
+.footer{
+  height: 200px;
+}
+.card-footer{
+  width: 100%;
+}
+.logobawah {
+  width: 100%;
+}
+.paragraf-sosmed {
+  width: 100%;
+}
+.paragraf-sosmed-span {
+  font-size: 18px;
+  margin-top: 20px;
+  width: 100%;
+}
+.paragraf-sosmed-link {
+  width: 100%;
+}
+.content-btm{
+  font-size: 10px;
+}
+.copyright {
+  width:49%;
+}
+.copyright-btm {
+  width: 49%;
+  text-align: right;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 425px) {
+.container {
+    width: 310px;
+    margin: 0 auto;
+}
+.header{
+  height: 130px;
+}
+.nav-bar input {
+  width: 100%;
+  padding: 2% 1%;
+  margin-top: 8%;
+  margin-left: unset;
+}
+.card-item{
+  width: 100%;
+  height: auto;
+  margin:10px 0 5px 0;
+}
+.parent-aside{
+  width:100%;
+  margin-bottom: 20px;
+}
+
+.aside-content {
+    padding: unset;
+}
+.btm-content {
+    width: 100%;
+}
+.judulbtm-content {
+    font-weight: bold;
+    font-size: 22px;
+}
+.item-content{
+  width: 100%;
+}
+.asidebtm-content {
+  width: 100%;
+}
+.judulaside-content {
+  font-weight: bold;
+  font-size: 22px;
+}
+.content-pagination a{
+  float: left;
+  padding: 4px 11px;
+}
+.footer{
+  height: 200px;
+}
+.card-footer{
+  width: 100%;
+}
+.logobawah {
+  width: 100%;
+}
+.paragraf-sosmed {
+  width: 100%;
+}
+.paragraf-sosmed-span {
+  width: 100%;
+}
+.paragraf-sosmed-link {
+  width: 100%;
+}
+.content-btm{
+  font-size: 10px;
+}
+.copyright {
+  width: 100%;
+}
+.copyright-btm {
+  width: 100%;
+  text-align: left;
+}
+
+}
+
+@media only screen and (max-width: 425px) {
+.container{
+  width: 280px;
+  margin: 0 auto;
+}
+
+}
